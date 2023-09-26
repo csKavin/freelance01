@@ -1,0 +1,84 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black !important;
+  font-weight: 400;
+  color: hsl(0deg 0% 100%)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-input {
+  border-color: hsl(220deg 6.38% 18.43%) !important;
+  background-color: hsl(240deg 10% 3.92%) !important;
+  color: hsl(0deg 0% 100%) !important;
+}
+
+.form-control::placeholder {
+  color: hsl(240deg 8.21% 40.59%) !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+
+.NavTab {
+  border-radius: 1rem;
+  background-color: hsl(240deg 8% 9.8%);
+  width: fit-content;
+  color: white;
+  /* padding: 8px; */
+}
+
+.NormalTab {
+  /* color: black !important; */
+  border-radius: 1rem;
+  /* background-color: white !important; */
+  padding: 6px 8px;
+  width: 100px;
+  text-align: center;
+}
+
+.ActiveTab {
+  color: black !important;
+  border-radius: 1rem;
+  background-color: white !important;
+  padding: 6px 8px;
+  width: 100px;
+  text-align: center;
+}
+
+.Divider {
+  border-bottom: 1px solid hsl(240deg 2.78% 14.12%);
+  margin-top: 32px;
+}
+
+
+
+.card-container {
+  border: 1px solid hsl(240deg 2.78% 14.12%);
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+  color: hsl(0deg 0% 100%) !important;
+  background-color: hsl(240deg 10% 3.92%) !important;
+  height: 70vh;
+}
+
+.h-45 {
+  height: 45%;
+}
+
+.HeldAmount {
+  padding: 7px;
+  border: 1px solid hsl(260.57deg 25.93% 26.47%);
+  border-radius: 8px;
+  font-size: 14px;
+}
